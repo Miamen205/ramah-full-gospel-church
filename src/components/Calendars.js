@@ -19,7 +19,7 @@ class CalendarsPage extends Component {
         <br />
         <br />
         <br />
-        <h1 class="title text-center"> November 2017 </h1>
+        <h1 class="title text-center"> Ramah Every Day Calendar </h1>
         <div id="calendar-body" class="calendar" data-toggle="calendar">
           <div class="row">
             <div class="col-xs-12 calendar-day calendar-no-current-month">
@@ -38,27 +38,27 @@ class CalendarsPage extends Component {
               <time datetime="2014-07-03">03</time>
               <div class="events">
                 <div class="event">
-                  <h4>Mid Day Dance Break - SELF CARE</h4>
+                  <h4>Tuseday is Fasting Day</h4>
                   <div class="desc">
                     <p>
-                      Take a Break and enjoy Live dance and Art from Eries own
-                      local Talent
+                      There are Some day you just have to spend some time in the
+                      pressence of God.
                     </p>
                     <p>
-                      Support for this program is provided in part from an Erie
-                      Arts & Culture Project Grant, made possible by community
-                      contributions to the Combined Arts & Cultural Campaign and
-                      the Erie Arts Endowment.
+                      Every Tuesday the pastor go to the church fast. Fasting
+                      start 5:00am to 6:00pm every Tuesday. You know the more
+                      time you spend in God pressence the more you get to know
+                      him, and also know what his plans are for you.
                     </p>
                   </div>
                   <div class="location">
                     {" "}
-                    <span class="glyphicon glyphicon-map-marker" /> State St and
-                    Rt 5, Erie, Pa.
+                    <span class="glyphicon glyphicon-map-marker" />Addres is:
+                    5949 w Northern ave Glendale Arizona 85301
                   </div>
                   <div class="datetime">
                     {" "}
-                    <span class="glyphicon glyphicon-time" /> 12:00am - 1:00pm
+                    <span class="glyphicon glyphicon-time" /> 6:00pm - 7:00pm
                   </div>
                   <div class="attending">
                     <img src="http://api.randomuser.me/portraits/women/54.jpg" />

@@ -25,16 +25,19 @@ class DropDown extends React.Component {
 
   render() {
     return (
-      <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-        <DropdownToggle>Dropdown</DropdownToggle>
-        <DropdownMenu>
-          <DropdownItem href="/r4cchior">R4C Chior</DropdownItem>
-          <DropdownItem href="#">Ramah Chior</DropdownItem>
-          <DropdownItem>Prayer Time</DropdownItem>
-          <DropdownItem />
-          <DropdownItem>Bible Studay</DropdownItem>
-        </DropdownMenu>
-      </Dropdown>
+      <div>
+        <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
+          <DropdownToggle>Dropdown</DropdownToggle>
+
+          <DropdownMenu>
+            <DropdownItem href="/r4cchior">R4C Chior</DropdownItem>
+            <DropdownItem href="#">Ramah Chior</DropdownItem>
+            <DropdownItem>Prayer Time</DropdownItem>
+            <DropdownItem />
+            <DropdownItem>Bible Studay</DropdownItem>
+          </DropdownMenu>
+        </Dropdown>
+      </div>
     );
   }
 }

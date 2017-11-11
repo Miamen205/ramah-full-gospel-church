@@ -46,24 +46,28 @@ class NavbarPage extends Component {
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse isOpen={!this.state.collapsed} navbar>
             <Nav navbar>
-              <NavItem>
-                <NavLink href="/">Home</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/signup">Contact Us</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/aboutpage">About Ramah</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="#">About R4C</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="calendars">Calendars</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/schedulepage">Ramah Schedule</NavLink>
-              </NavItem>
+              <center>
+                <NavItem>
+                  <NavLink className="NavLink-center" href="/">
+                    Home
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="/signup">Contact Us</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="/aboutpage">About Ramah</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="#">About R4C</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="calendars">Calendars</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="/schedulepage">Ramah Schedule</NavLink>
+                </NavItem>
+              </center>
             </Nav>
             <DropDown />
           </Collapse>
