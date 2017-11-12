@@ -65,7 +65,7 @@ class NavbarPage extends Component {
                   <NavLink href="calendars">Calendars</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/schedulepage">Ramah Schedule</NavLink>
+                  <NavLink href="/schedulepage">Ramah Chior</NavLink>
                 </NavItem>
               </center>
             </Nav>

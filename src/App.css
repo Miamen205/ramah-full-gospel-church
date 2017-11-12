@@ -328,3 +328,95 @@ h1.title {
 .calendar-day > .events > .event > .progress {
   height: 10px;
 }
+/* canledar photo styling */
+#bush-photo {
+  position: relative;
+  width: 70px;
+  height: 70px;
+}
+#bush-photo2 {
+  position: relative;
+  width: 70px;
+  height: 70px;
+}
+#calendar-body {
+  background: url(https://www.myboostfitness.com/wp-content/uploads/2016/02/tight-schedule-workout.jpg);
+  position: relative;
+  background-color: rgb(156, 154, 154);
+  box-shadow: 0 20px 6px rgba(165, 162, 162, 0.9);
+  right: -30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#h2-tiltle {
+  width: 100%;
+  color: rgb(0, 0, 0);
+}
+#h2-tiltle2 {
+  width: 100%;
+  color: rgb(7, 7, 7);
+}
+#calendar-title {
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.4s;
+  font-family: Impact, "Haettenschweiler", "Franklin Gothic Bold", "Charcoal",
+    "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+  font-size: 34px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+  top: -6px;
+  position: relative;
+}
+/* signupPage-Body-Body styling */
+#signupPage-Body {
+  background: url(http://tabetest.com/wp-content/uploads/2017/01/Contact-us-Snugg-Living.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#line {
+  background-color: navy;
+}
+#event {
+  background-color: rgb(21, 203, 235);
+}
+#event2 {
+  background-color: rgb(236, 39, 39);
+}
+#event3 {
+  background-color: rgb(9, 170, 35);
+}
+#event4 {
+  background-color: rgb(89, 73, 236);
+}
+/* CalendarsPage-Body styling */
+#CalendarsPage-Body {
+  background: url(https://socialprintstudio.imgix.net/products/calendar/calendar/Product-Calendar6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#yahoo {
+  position: relative;
+  width: 35px;
+}
+#speach-title {
+  color: white;
+}
+#about-speach {
+  color: rgb(54, 10, 250);
+  width: 500px;
+}
+#pastor-name {
+}

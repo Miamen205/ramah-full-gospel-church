@@ -14,8 +14,8 @@
 
 <body>
   <!-- Calendly inline widget begin -->
-  <div class="calendly-inline-widget" data-url="https://calendly.com/eddiemiamen4" style="min-width:320px;height:580px;"></div>
-  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+  <!-- <div class="calendly-inline-widget" data-url="https://calendly.com/eddiemiamen4" style="min-width:320px;height:580px;"></div>
+  <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script> -->
   <!-- Calendly inline widget end -->
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
     crossorigin="anonymous"></script>
@@ -68,7 +68,7 @@
             '<a href="https://calendly.com/eddiemiamen4" class="btn btn-success" role="button">Click Here To Schedule</a>'
           ].join('\n');
 
-        $(this).attr('title', $(this).find('h4').text());
+        $(this).attr('title', $(this).find('h2').text());
         $(this).attr('data-content', html);
       });
 

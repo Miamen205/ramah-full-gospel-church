@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import Navbar from "./Navbar";
+import { Container } from "reactstrap";
 import { Button, Form, FormGroup, Label, Input } from "reactstrap";
+import { ListGroup, ListGroupItem } from "reactstrap";
+import { CardTitle } from "reactstrap";
+import FooterPage from "./Footer";
 
 class SignupPage extends Component {
   render() {
@@ -21,36 +25,43 @@ class SignupPage extends Component {
         <br />
         <br />
         <br />
-        <Form id="Form">
-          <FormGroup>
-            <Label for="exampleEmail">Email</Label>
-            <Input
-              type="email"
-              name="email"
-              id="exampleEmail"
-              placeholder="with a placeholder"
-            />
-          </FormGroup>
-          <FormGroup>
-            <Label for="examplePassword">Password</Label>
-            <Input
-              type="password"
-              name="password"
-              id="examplePassword"
-              placeholder="password placeholder"
-            />
-          </FormGroup>
-          <FormGroup>
-            <Label for="exampleNumber">Number</Label>
-            <Input
-              type="phone-number"
-              name="number"
-              id="exampleNumber"
-              placeholder="(602)-###-####"
-            />
-          </FormGroup>
-          <Button>Submit</Button>
-        </Form>
+        <Container>
+          <ListGroup>
+            <CardTitle> Contact Us </CardTitle>
+            <ListGroupItem>
+              Email: harmonykids111@gmail.com
+              <button class="btn btn-default btn-lg pull-xs-right">
+                <a href="https://mail.google.com">
+                  <img src="https://i.imgur.com/fiwv1Rl.png" />
+                </a>
+              </button>
+            </ListGroupItem>
+            <ListGroupItem>Phone: 623-322-5295</ListGroupItem>
+            <ListGroupItem>
+              revolutionforchrist@yahoo.com{" "}
+              <button class="btn btn-default btn-lg pull-xs-right">
+                <a href="https://login.yahoo.com/?.src=ym&.intl=us&.done=https%3A%2F%2Fmail.yahoo.com%2F">
+                  <img id="yahoo" src="https://i.imgur.com/YXd78Og.png" />
+                </a>
+              </button>
+            </ListGroupItem>
+            <ListGroupItem> Phone: 623-806-4296</ListGroupItem>
+          </ListGroup>
+        </Container>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <FooterPage />
+        <br />
+        <br />
+        <br />
       </div>
     );
   }
