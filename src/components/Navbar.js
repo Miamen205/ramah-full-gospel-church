@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import DropDown from "./DropDown";
+// import Search from "./SearchBar";
 import {
   Collapse,
   Navbar,
@@ -67,6 +68,7 @@ class NavbarPage extends Component {
                 <NavItem>
                   <NavLink href="/schedulepage">Ramah Chior</NavLink>
                 </NavItem>
+                {/* <Search /> */}
               </center>
             </Nav>
             <DropDown />

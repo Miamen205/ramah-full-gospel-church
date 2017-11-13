@@ -27,12 +27,12 @@ class DropDown extends React.Component {
     return (
       <div>
         <Dropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
-          <DropdownToggle>Dropdown</DropdownToggle>
+          <DropdownToggle>More Contents</DropdownToggle>
 
           <DropdownMenu>
             <DropdownItem href="/r4cchior">R4C Chior</DropdownItem>
             <DropdownItem href="#">Ramah Chior</DropdownItem>
-            <DropdownItem href="#">Prayer Time</DropdownItem>
+            <DropdownItem href="calendars">Prayer Time</DropdownItem>
             <DropdownItem />
             <DropdownItem href="#">Bible Studay</DropdownItem>
           </DropdownMenu>

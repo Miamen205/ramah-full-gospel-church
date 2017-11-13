@@ -74,7 +74,7 @@ class Homepage extends Component {
                         will quiet you by his love; he will exult over you with
                         loud singing."
                       </CardText>
-                      <Button href="#" id="button">
+                      <Button href="#calendars" id="button">
                         Bible Study
                       </Button>
                     </Card>
@@ -99,7 +99,7 @@ class Homepage extends Component {
                         becomes an orphan.
                       </CardText>
                       <CardText />
-                      <Button href="#" id="button">
+                      <Button href="calendars" id="button">
                         Sunday Service
                       </Button>
                     </Card>
@@ -287,7 +287,7 @@ class Homepage extends Component {
                         anything according to his will, he hears us.
                       </CardText>
                       <CardText />
-                      <Button href="#" id="button">
+                      <Button href="calendars" id="button">
                         {" "}
                         Prayer Time
                       </Button>

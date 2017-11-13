@@ -4,6 +4,7 @@ import { Container, Row, Col } from "reactstrap";
 import { Card, CardImg, CardTitle, CardSubtitle } from "reactstrap";
 import FooterPage from "./Footer";
 import ReactPlayer from "react-player";
+// import Filestack from "./Filestack.jsx";
 
 class R4Cchior extends Component {
   render() {
@@ -14,6 +15,19 @@ class R4Cchior extends Component {
           <br />
           <br />
           <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <center>
+            <h2>Welcome To R4C Nation</h2>
+            <h3>This Section Is Only For The R4C Chior </h3>
+          </center>
+          {/* <Filestack /> */}
           <br />
           <br />
           <br />
