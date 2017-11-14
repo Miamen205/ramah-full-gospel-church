@@ -1,24 +1,20 @@
 import React, { Component } from "react";
+import Navbar from "./Navbar";
 import { Row, Col } from "reactstrap";
 import { Card, CardImg, CardTitle, CardSubtitle } from "reactstrap";
-import Navbar from "./Navbar";
+import GoogleMap from "./GoogleMap";
 import FooterPage from "./Footer";
 
-class BibleStudy extends Component {
+class LocationPage extends Component {
   render() {
     return (
-      <div id="BibleStudy-Body">
+      <div id="LocationPage-Body">
         <Navbar />
         <br />
         <br />
         <br />
         <br />
-        <br />
-        <center>
-          <iframe src="https://www.bible.com" height="600" width="900" />
-        </center>
-        <br />
-        <br />
+        <GoogleMap />
         <br />
         <br />
         <FooterPage />
@@ -26,4 +22,4 @@ class BibleStudy extends Component {
     );
   }
 }
-export default BibleStudy;
+export default LocationPage;

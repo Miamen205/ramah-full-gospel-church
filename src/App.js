@@ -9,7 +9,8 @@ import SchedulePage from "./components/Schedule";
 import CalendarsPage from "./components/Calendars";
 import Ctest from "./components/Ctest";
 import R4CAboutPage from "./components/R4CAbout";
-// import ContactForm from "./components/ContactForm";
+import LocationPage from "./components/LocationPage";
+import BibleStudy from "./components/BibleStudy";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 class App extends Component {
@@ -25,7 +26,8 @@ class App extends Component {
           <Route path="/calendars" component={CalendarsPage} />
           <Route path="/ctest" component={Ctest} />
           <Route path="/r4cabout" component={R4CAboutPage} />
-          {/* <Route path="/contactform" component={ContactForm} />    */}
+          <Route path="/location" component={LocationPage} />
+          <Route path="/bible" component={BibleStudy} />
         </div>
       </Router>
     );

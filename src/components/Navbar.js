@@ -60,7 +60,7 @@ class NavbarPage extends Component {
                   <NavLink href="/aboutpage">About Ramah</NavLink>
                 </NavItem>
                 <NavItem>
-                  {/* <NavLink href="#">Ramah Chior</NavLink> */}
+                  <NavLink href="location">Location</NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink href="calendars">Prayer Time</NavLink>
@@ -74,7 +74,9 @@ class NavbarPage extends Component {
                 <NavItem>
                   <NavLink href="/ctest">Calendars</NavLink>
                 </NavItem>
-                {/* <Search /> */}
+                <NavItem>
+                  <NavLink href="/bible">Bible Study</NavLink>
+                </NavItem>
               </center>
             </Nav>
             <DropDown />

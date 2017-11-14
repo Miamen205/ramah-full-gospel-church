@@ -22,7 +22,7 @@ class AboutPage extends Component {
             <Card id="card-about-img">
               <CardImg
                 top
-                width="100%"
+                width="260"
                 src="https://scontent.fphx1-2.fna.fbcdn.net/v/t1.0-9/11055254_10206173043955381_722213628481418412_n.jpg?oh=0655e9b7cbfd949b6719d369b358fd42&oe=5A6D3D91"
                 alt="Card image cap"
               />
@@ -55,20 +55,6 @@ class AboutPage extends Component {
                 have office, we have a day program. We have a child care, we
                 have a church place we can call home. The entire building is
                 empty, just alone you can see our name on the board......
-                {/* Greeting ladies and Gentlemen. We are the Revolution For Christ
-              young adults group, based on Ramah Full Gospel Ministry here in
-              phoenix arizona. Our history isnt different from others, but our
-              goals for the kingdom work might be different. Our projection is
-              to bring young adults into the kingdom of work, and establishing
-              the next future. This generation is growing to becoming parents,
-              without a great fundation we arent going to be able to accomplish
-              anything for the next 40 to 50 years. Thats why we took upon
-              ourselves to devote our youth in the presence of God so he can
-              help us to be better young man and you women in the futurem It
-              easy to criticise but it hard to build. Our goals with our youth
-              is to empower others with the word of God and establish a bond
-              that can't be broken easily by the influemce of our generation or
-              the society. */}
               </h5>
             </center>
           </Col>
@@ -86,6 +72,58 @@ class AboutPage extends Component {
         <br />
         <br />
         <br />
+        <Row>
+          <Col>
+            {" "}
+            <Card id="card-about-img">
+              <CardImg
+                top
+                width="260"
+                src="https://scontent.fphx1-2.fna.fbcdn.net/v/t1.0-9/11055254_10206173043955381_722213628481418412_n.jpg?oh=0655e9b7cbfd949b6719d369b358fd42&oe=5A6D3D91"
+                alt="Card image cap"
+              />
+              <h4 id="pastor-name">Pastor Hypolite Kayenda-Muntu</h4>
+              <CardSubtitle>Head Pastor Of Ramah</CardSubtitle>
+            </Card>
+          </Col>
+          <Col id="about-pargraph">
+            {" "}
+            <center>
+              <h5 id="about-speach">
+                {" "}
+                It has been a challenge year. As we see challenge we know that
+                there will be a good result. We cannot have a test without
+                having a testimony. We can Not have a message without no mess,
+                mess must be there. We go through a lot of challenges and we
+                been through a lot of challenges. But it allowed us to grow, it
+                allowed us to come together as a church and as a family. And we
+                discover also which part of the member are part of the family.<br
+                />{" "}
+                Because if the church don’t come together as a leader,and don’t
+                stay together. then that is not a church. But we discovered
+                those friends and we see a lot of friends, brothers and sisters
+                that was with us. But they left, we can just stay like this is
+                good. Because as they leave we discover other challenges for
+                other people. We saw the choir come together. Saw the youth come
+                together. In our leadership we dating really miss anybody,
+                because the majority of the leader the group stay together. 2014
+                have been a real challenge but we thank God because today we
+                have office, we have a day program. We have a child care, we
+                have a church place we can call home. The entire building is
+                empty, just alone you can see our name on the board......
+              </h5>
+            </center>
+          </Col>
+          <Col>
+            {" "}
+            <ReactPlayer url="https://youtu.be/PxrjSdWPgls" />{" "}
+            <CardTitle id="speach-title">
+              Pastor Hypolite Kayenda-Muntu
+            </CardTitle>
+            <CardSubtitle id="speach-title">Talk About The Church</CardSubtitle>
+          </Col>
+          <Col />
+        </Row>
         <br />
         <br />
         <br />

@@ -74,7 +74,7 @@ class Homepage extends Component {
                         will quiet you by his love; he will exult over you with
                         loud singing."
                       </CardText>
-                      <Button href="#calendars" id="button">
+                      <Button href="/bible" id="button">
                         Bible Study
                       </Button>
                     </Card>

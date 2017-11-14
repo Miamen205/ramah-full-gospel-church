@@ -93,10 +93,12 @@
   margin-right: auto;
 }
 footer {
+  position: absolute;
+  right: 0;
+  left: 0;
   background-color: rgb(245, 237, 237);
   padding-top: 3rem;
   padding-bottom: 3rem;
-  box-shadow: 0 15px 6px rgba(165, 162, 162, 0.9);
 }
 #link-img {
   width: 100%;
@@ -160,7 +162,7 @@ footer p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 1200px;
+  height: 1800px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -339,11 +341,9 @@ h1.title {
   width: 70px;
   height: 70px;
 }
-#calendar-body {
-  background: url(https://www.myboostfitness.com/wp-content/uploads/2016/02/tight-schedule-workout.jpg);
+#Calendar2 {
+  background: url(https://www.hdwallpapers.in/download/blue_sunset-1680x1050.jpg);
   position: relative;
-  background-color: rgb(156, 154, 154);
-  box-shadow: 0 20px 6px rgba(165, 162, 162, 0.9);
   right: -30px;
   background-repeat: no-repeat;
   background-position: center;
@@ -411,12 +411,12 @@ h1.title {
   background-color: rgb(89, 73, 236);
 }
 /* CalendarsPage-Body styling */
-#CalendarsPage-Body {
-  background: url(http://reflectionsintheword.files.wordpress.com/2011/10/praying-hands-blackwhite.jpg);
+#BibleStudy-Body {
+  background: url(https://blog.faithlifecdn.com/wp-content/uploads/2014/08/lightstock-31979-medium-logos-bible-software.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 700px;
+  height: 900px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -427,14 +427,23 @@ h1.title {
 #speach-title {
   color: white;
 }
+#speach-title2 {
+  color: rgb(218, 28, 28);
+}
 #about-speach {
   color: rgb(54, 10, 250);
   width: 500px;
+  background-color: rgb(245, 245, 245);
+}
+#about-speach2 {
+  width: 500px;
+  color: rgb(252, 251, 255);
+  background-color: rgb(11, 70, 138);
 }
 /* second calendar styling */
 #calendar-iframe {
   border: 0;
-  box-shadow: 0 20px 6px rgba(165, 162, 162, 0.9);
+  box-shadow: 0 20px 6px rgba(19, 161, 226, 0.9);
   width: 1300px;
   height: 800px;
 }
@@ -445,8 +454,12 @@ h1.title {
 }
 /* R4C About Page styling */
 #R4C-About-Body {
-  background: url(http://www.pptbackgrounds.org/uploads/white-doves-and-red-bow-backgrounds-wallpapers.jpg);
+  background: url(http://www.dq995.com/data/out/20/847934.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+/* GoogleMap styling */
+#GoogleMap {
+  border: 0;
 }
