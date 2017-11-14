@@ -31,7 +31,7 @@ class DropDown extends React.Component {
 
           <DropdownMenu>
             <DropdownItem href="/r4cchior">R4C Chior</DropdownItem>
-            <DropdownItem href="#">Ramah Chior</DropdownItem>
+            <DropdownItem href="r4cabout">About R4C</DropdownItem>
             <DropdownItem href="calendars">Prayer Time</DropdownItem>
             <DropdownItem />
             <DropdownItem href="#">Bible Studay</DropdownItem>
