@@ -19,6 +19,7 @@ class BibleStudy extends Component {
         </center>
         <br />
         <br />
+
         <br />
         <br />
         <FooterPage />
