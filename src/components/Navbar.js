@@ -60,13 +60,16 @@ class NavbarPage extends Component {
                   <NavLink href="/aboutpage">About Ramah</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#">About R4C</NavLink>
+                  <NavLink href="r4cabout">About R4C</NavLink>
                 </NavItem>
-                <NavItem>
+                {/* <NavItem>
                   <NavLink href="calendars">Calendars</NavLink>
-                </NavItem>
+                </NavItem> */}
                 <NavItem>
                   <NavLink href="/schedulepage">Ramah Chior</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="/ctest">Calendars</NavLink>
                 </NavItem>
                 {/* <Search /> */}
               </center>

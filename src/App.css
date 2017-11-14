@@ -349,6 +349,19 @@ h1.title {
   background-position: center;
   background-size: cover;
 }
+/* R4C Chior Page styling*/
+#R4C-Chior-Body {
+  background: url(http://wallpapers.simplythebest.net/wallpapers/3D_Abstract_11_1680x1050_317.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#R4C-Concert {
+  color: rgb(243, 38, 38);
+  font-size: 34px;
+}
+/* end  R4C Chior Page styling */
 
 #h2-tiltle {
   width: 100%;
@@ -378,7 +391,7 @@ h1.title {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 700px;
+  height: 940px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -399,7 +412,7 @@ h1.title {
 }
 /* CalendarsPage-Body styling */
 #CalendarsPage-Body {
-  background: url(https://socialprintstudio.imgix.net/products/calendar/calendar/Product-Calendar6.jpg);
+  background: url(http://reflectionsintheword.files.wordpress.com/2011/10/praying-hands-blackwhite.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -418,5 +431,22 @@ h1.title {
   color: rgb(54, 10, 250);
   width: 500px;
 }
-#pastor-name {
+/* second calendar styling */
+#calendar-iframe {
+  border: 0;
+  box-shadow: 0 20px 6px rgba(165, 162, 162, 0.9);
+  width: 1300px;
+  height: 800px;
+}
+/* google-map styling */
+#google-map {
+  border-width: 0;
+  box-shadow: 0 20px 6px rgba(165, 162, 162, 0.9);
+}
+/* R4C About Page styling */
+#R4C-About-Body {
+  background: url(http://www.pptbackgrounds.org/uploads/white-doves-and-red-bow-backgrounds-wallpapers.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }

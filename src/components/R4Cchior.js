@@ -78,7 +78,7 @@ class R4Cchior extends Component {
           <Row>
             <Col />
             <Col>
-              <CardTitle> R4C Concert</CardTitle>
+              <CardTitle id="R4C-Concert"> R4C Concert</CardTitle>
             </Col>
             <Col />
             <Col />
@@ -125,11 +125,8 @@ class R4Cchior extends Component {
           <br />
           <br />
           <br />
+          <br />
           <FooterPage />
-          <br />
-          <br />
-          <br />
-          <br />
         </div>
       </div>
     );
