@@ -60,11 +60,14 @@ class NavbarPage extends Component {
                   <NavLink href="/aboutpage">About Ramah</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="#">Ramah Chior</NavLink>
+                  {/* <NavLink href="#">Ramah Chior</NavLink> */}
                 </NavItem>
-                {/* <NavItem>
-                  <NavLink href="calendars">Calendars</NavLink>
-                </NavItem> */}
+                <NavItem>
+                  <NavLink href="calendars">Prayer Time</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="#">Bible Studay</NavLink>
+                </NavItem>
                 <NavItem>
                   <NavLink href="/schedulepage">Ramah Chior</NavLink>
                 </NavItem>
