@@ -36,12 +36,17 @@ class CalendarsPage extends Component {
           <br />
           <br />
           <br />
+          <center>
+          <a href='https://disciplr.com/world-map-christian-apps/'>
+           <img src='https://disciplr.com/wp-content/uploads/the-world-map-of-christian-apps.2017.jpg'
+           alt='The World Map of Christian Apps' width='840' border='0' />
+          </a>
+          </center>
           <br />
           <br />
           <br />
           <br />
           <br />
-
           <br />
           <br />
           <br />

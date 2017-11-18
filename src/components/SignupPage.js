@@ -7,6 +7,19 @@ import { CardTitle } from "reactstrap";
 import FooterPage from "./Footer";
 
 class SignupPage extends Component {
+  state = {
+    contactSubmission: false
+  };
+  contactSubmit = () => {
+    let email = this.refs.email.value;
+    let fullName = this.refs.fullName.value;
+    let phoneNumber = this.refs.phoneNumber.value;
+    let message = this.refs.message.value;
+    let subject = this.refs.subject.value;
+    this.props.contactSubmit(email, fullName, phoneNumber, subject, message);
+    this.setState({ sent: true, contactSubmision: true });
+    console.log("CONTACT FORM SUBMITED");
+  };
   render() {
     return (
       <div id="signupPage-Body">
@@ -25,29 +38,7 @@ class SignupPage extends Component {
         <br />
         <br />
         <br />
-        <Container>
-          <ListGroup>
-            <CardTitle> Contact Us </CardTitle>
-            <ListGroupItem>
-              Email: harmonykids111@gmail.com
-              <button class="btn btn-default btn-lg pull-xs-right">
-                <a href="https://mail.google.com">
-                  <img src="https://i.imgur.com/fiwv1Rl.png" />
-                </a>
-              </button>
-            </ListGroupItem>
-            <ListGroupItem>Phone: 623-322-5295</ListGroupItem>
-            <ListGroupItem>
-              revolutionforchrist@yahoo.com{" "}
-              <button class="btn btn-default btn-lg pull-xs-right">
-                <a href="https://login.yahoo.com/?.src=ym&.intl=us&.done=https%3A%2F%2Fmail.yahoo.com%2F">
-                  <img id="yahoo" src="https://i.imgur.com/YXd78Og.png" />
-                </a>
-              </button>
-            </ListGroupItem>
-            <ListGroupItem> Phone: 623-806-4296</ListGroupItem>
-          </ListGroup>
-        </Container>
+
         <br />
         <br />
         <br />

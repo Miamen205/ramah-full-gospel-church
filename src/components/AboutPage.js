@@ -79,10 +79,10 @@ class AboutPage extends Component {
               <CardImg
                 top
                 width="260"
-                src="https://scontent.fphx1-2.fna.fbcdn.net/v/t1.0-9/11055254_10206173043955381_722213628481418412_n.jpg?oh=0655e9b7cbfd949b6719d369b358fd42&oe=5A6D3D91"
+                src="https://scontent.fphx1-1.fna.fbcdn.net/v/t1.0-9/22814520_1703804252972343_3795202105636955359_n.jpg?oh=3f48836e8b278c2358acfa8cda979c72&oe=5A956BA3"
                 alt="Card image cap"
               />
-              <h4 id="pastor-name">Pastor Hypolite Kayenda-Muntu</h4>
+              <h4 id="pastor-name">Sylvie Diur Kayenda</h4>
               <CardSubtitle>Head Pastor Of Ramah</CardSubtitle>
             </Card>
           </Col>
@@ -117,10 +117,10 @@ class AboutPage extends Component {
           <Col>
             {" "}
             <ReactPlayer url="https://youtu.be/PxrjSdWPgls" />{" "}
-            <CardTitle id="speach-title">
-              Pastor Hypolite Kayenda-Muntu
-            </CardTitle>
-            <CardSubtitle id="speach-title">Talk About The Church</CardSubtitle>
+            <CardTitle id="speach-title2">Sylvie Diur Kayenda</CardTitle>
+            <CardSubtitle id="speach-title2">
+              Talk About The Church
+            </CardSubtitle>
           </Col>
           <Col />
         </Row>

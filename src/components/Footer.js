@@ -6,36 +6,36 @@ class FooterPage extends Component {
     return (
       <div id="footer" className="footer">
         {/* Footer for the website */}
-        <footer class="text-muted">
+        <footer className="text-muted">
           <CardTitle>Social Media Page</CardTitle>
-          <div class="col l4 offset-l2 s12">
+          <div className="col l4 offset-l2 s12">
             <ul>
-              <button class="btn btn-default btn-lg pull-xs-right">
+              <button className="btn btn-default btn-lg pull-xs-right">
                 <a href="#">
                   <img id="link-img" src="https://i.imgur.com/IxMPieF.png" />
                 </a>
               </button>
-              <button class="btn btn-default btn-lg pull-xs-right">
+              <button className="btn btn-default btn-lg pull-xs-right">
                 <a href="#">
                   <img id="link-img" src="https://i.imgur.com/KNfjMhB.png" />
                 </a>
               </button>
-              <button class="btn btn-default btn-lg pull-xs-right">
+              <button className="btn btn-default btn-lg pull-xs-right">
                 <a href="#">
                   <img id="link-img" src="https://i.imgur.com/HNrsmck.png" />
                 </a>
               </button>
-              <button class="btn btn-default btn-lg pull-xs-right">
+              <button className="btn btn-default btn-lg pull-xs-right">
                 <a href="#">
                   <img id="link-img" src="https://i.imgur.com/XOhfzMp.png" />
                 </a>
               </button>
-              <button class="btn btn-default btn-lg pull-xs-right">
+              <button className="btn btn-default btn-lg pull-xs-right">
                 <a href="#">
                   <img id="link-img" src="https://i.imgur.com/BpQzx9V.png" />
                 </a>
               </button>
-              <button class="btn btn-default btn-lg pull-xs-right">
+              <button className="btn btn-default btn-lg pull-xs-right">
                 <a href="#">
                   <img id="link-img" src="https://i.imgur.com/sKrAS4V.png" />
                 </a>
@@ -49,7 +49,7 @@ class FooterPage extends Component {
           <ul>
             <li>
               <a
-                class="grey-text text-lighten-3"
+                className="grey-text text-lighten-3"
                 href="https://www.harmonykidsa.com/"
               >
                 Harmony Kids Childcare & Academy
@@ -57,7 +57,7 @@ class FooterPage extends Component {
             </li>
             <li>
               <a
-                class="grey-text text-lighten-3"
+                className="grey-text text-lighten-3"
                 href="https://www.r4cnation.com/"
               >
                 R4C Nation
@@ -65,7 +65,7 @@ class FooterPage extends Component {
             </li>
             <li>
               <a
-                class="grey-text text-lighten-3"
+                className="grey-text text-lighten-3"
                 href="https://www.r4cnation.com/music/"
               >
                 R4C Nation Music
@@ -73,7 +73,7 @@ class FooterPage extends Component {
             </li>
             <li>
               <a
-                class="grey-text text-lighten-3"
+                className="grey-text text-lighten-3"
                 href="https://www.facebook.com/profile.php?id=100009148798873"
               >
                 Ramah Facebook

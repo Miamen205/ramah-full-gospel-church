@@ -14,6 +14,10 @@ class LocationPage extends Component {
         <br />
         <br />
         <br />
+        <br />
+        <br />
+        <br />
+        <br />
         <GoogleMap />
         <br />
         <br />

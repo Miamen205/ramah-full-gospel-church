@@ -15,11 +15,15 @@ class BibleStudy extends Component {
         <br />
         <br />
         <center>
-          <iframe src="https://www.bible.com" height="600" width="900" />
+          <iframe
+            id="bible"
+            src="https://www.bible.com"
+            height="600"
+            width="900"
+          />
         </center>
         <br />
         <br />
-
         <br />
         <br />
         <FooterPage />

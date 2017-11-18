@@ -442,7 +442,7 @@ h1.title {
 }
 /* second calendar styling */
 #calendar-iframe {
-  border: 0;
+  border: solid 1px #777;
   box-shadow: 0 20px 6px rgba(19, 161, 226, 0.9);
   width: 1300px;
   height: 800px;
@@ -462,4 +462,63 @@ h1.title {
 /* GoogleMap styling */
 #GoogleMap {
   border: 0;
+}
+/* LocationPage-Body styling */
+#LocationPage-Body {
+  background: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/jVhILry/blue-presentation-background-world-map-4k_v1-e_6ygg__F0000.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* CalendarsPage-Body styling */
+#CalendarsPage-Body {
+  background: url(https://images2.alphacoders.com/200/200510.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* Pray code styling */
+#prayer {
+  width: 800px;
+  height: 500px;
+  border: 0;
+}
+/* Bible styling */
+#bible {
+  border: solid 7px rgb(31, 30, 30);
+}
+/* contact form styling */
+.contact {
+  padding: 40px 0 80px;
+  text-align: center;
+}
+.contact p {
+  padding-bottom: 80;
+  color: #737373;
+  text-align: center;
+}
+.contact h2 {
+  color: #4c4c4c;
+  margin: 20px 0 20px;
+}
+.contact .input-group {
+  margin-bottom: 25px;
+}
+.contact .form-control {
+  border-radius: 0 !important;
+}
+.control span {
+  border-radius: 0 !important;
+}
+.contact .btn {
+  border-radius: 0;
+  width: 100%;
+  font-size: 15;
+  background-color: #f08080;
+  color: #fff;
+  margin-top: 4%;
+}
+.contact .btn:hover {
+  background-color: #a85959 !important;
+  color: #fff !important;
 }
